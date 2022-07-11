@@ -1,0 +1,403 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url(../imagens/fundo-topo.png) repeat-x;
+}
+
+
+/*Configurações do topo*/
+#principal{
+    width: 900px;
+    margin: 0 auto;
+}
+
+#topo{
+    height: 150px;
+    padding-top: 25px;
+    background: url(../imagens/detalhe-topo.png) no-repeat right top;
+}
+
+#logo{
+    background: url(../imagens/logo.png) no-repeat center;
+    height: 70px;
+    width: 160px;
+    text-indent: -9999px;
+}
+
+/*Configurações da navegação*/
+
+#nav ul{
+    margin-top: 30px;
+    list-style: none;
+    float: left;
+    background: #b10333;
+}
+
+#nav ul li {
+    float : left;
+}
+
+#nav ul  a{
+    font-size: 0.9em;
+    padding: 10px 30px 10px 30px;
+	line-height: 2.6em;
+    background: url(../imagens/divisor.png) repeat-y left center;
+	text-decoration: none;
+	color: #fff;
+}
+
+#nav ul li a:hover{
+    color: #750324;
+}
+
+#topo ul .primeiro a {
+	background: none;
+}
+
+body#home #nav a.home,
+body#brasil #nav a.brasil,
+body#internacional #nav a.internacional,
+body#fotos #nav a.fotos{
+    cursor: default;
+    background: #dd0542
+}
+
+#conteudo-site div{
+    float: left;
+    width: 300px;
+}
+
+.fundo-caixa{
+    background: url(../imagens/fundo.png);
+}
+
+#entrevistas{
+    margin-top: 90px;
+}
+#entrevistas .fundo-caixa{
+    width: 170px;
+    margin-top: 0px;
+}
+
+ h2{
+    font-size: 20px;
+    background: #294c71;
+    color: #fff;
+    margin: 5px;
+    padding: 3px;
+}
+
+#entrevistas ul{
+    list-style: none;
+    background: #fff;
+    margin: 5px;
+
+}
+
+#entrevistas li a{
+    text-decoration: none;
+    padding: 0.3em;
+    color: #000;
+    line-height: 30px;
+    display: block;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.199)
+}
+
+#entrevistas li a:hover{
+    background: rgba(128, 128, 128, 0.281) url(../imagens/marcador.png) no-repeat left center;
+    padding-left: 20px;
+}
+
+#news{
+    margin-top: 480px;
+    margin-left: -830px;
+
+}
+#news .fundo-caixa{
+    width: 170px;
+}
+
+#news form{
+    padding: 10px;
+    margin: 5px;
+    background-color: #fff;
+}
+
+#news label{
+    cursor: pointer
+}
+
+#news input[type="text"]{
+    width: 130px;
+    padding: 5px;
+    border-top: 2px solid black;
+}
+
+#news input[type="button"]{
+    color: #fff;
+    background: #b10333;
+    padding: 5px;
+}
+
+#destaques{
+    margin-top: 90px;
+    margin-left: -100px;
+}
+
+#destaques .conteudo-caixa{
+    padding: 1px;
+    width: 290px;
+    margin: 5px;
+    background: #fff;
+}
+
+#destaques h3{
+    float : left;
+    margin-top: 5px;
+    padding: 0px 3px;
+    background: #b10333;
+    color: #fff;
+}
+
+#destaques img{
+    border: 2px solid #dfdfdf;
+    width: 98%;
+}
+
+#destaques  a{
+    color: #b10333;
+}
+
+#destaques a:hover{
+    color: #ff0048;
+}
+
+#ultima-entrevista{
+    margin-top: 90px;
+    margin-left: 30px;
+}
+
+#ultima-entrevista .conteudo-caixa{
+    padding: 1px;
+    width: 290px;
+    margin: 5px;
+    background: #fff;
+}
+
+#ultima-entrevista h3{
+    float : left;
+    margin-top: 5px;
+    padding: 0px 3px;
+    background: #b10333;
+    color: #000;
+}
+
+#ultima-entrevista img{
+    border: 2px solid #dfdfdf;
+    width: 98%;
+}
+
+#ultima-entrevista  a{
+    color: #b10333;
+}
+
+#ultima-entrevista a:hover{
+    color: #ff0048;
+}
+
+#mundo{
+    margin-top: 15px;
+    margin-left: -100px;
+}
+
+#mundo .conteudo-caixa{
+    width: 290px;
+    margin: 5px;
+}
+
+#mundo ul{
+    list-style: none;
+    margin-bottom: px;
+}
+
+#mundo li{
+    background-color: #fff;
+    padding: 4px;
+
+    border-bottom: 1px solid rgba(0, 0, 0, 0.308);
+}
+
+#mundo a{
+    text-decoration: none;
+    line-height: 20px;
+}
+
+#mundo a p{
+    color: #000;
+    font-size: 13px
+}
+
+#mundo a img{
+    padding-right: 10px;;
+    width: 90px;
+    float: left
+}
+
+#rescentes{
+    margin-top: 15px;
+    margin-left: 30px;
+    margin-bottom: 15px;
+}
+
+#rescentes li a h4{
+    color: #1065c0;
+    font-size: 14px;
+}
+
+#rescentes .conteudo-caixa{
+    width: 290px;
+    margin: 5px;
+}
+
+#rescentes ul{
+    list-style: none;
+    margin-bottom: 5px;
+
+}
+
+#rescentes li{
+    background-color: #fff;
+    padding: 4px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.308);
+}
+
+#rescentes a{
+    text-decoration: none;
+    line-height: 20px;
+}
+
+#rescentes li a h4{
+    color: #1065c0;
+    font-size: 14px;
+}
+
+#rescentes a p{
+    color: #000;
+    font-size: 13px
+}
+
+#rescentes a img{
+    padding-right: 10px;;
+    width: 90px;
+    float: left;
+}
+
+.duas-colunas #destaques{
+    width: 600px;
+}
+
+.duas-colunas #destaques .fundo-caixa{
+    width: 100%;
+}
+
+.duas-colunas #destaques .conteudo-caixa{
+    padding: 1px;
+    width: 590px;
+    margin: 5px;
+    background: #fff;
+}
+
+.duas-colunas #destaques h3{
+    float : left;
+    margin-top: 5px;
+    padding: 0px 3px;
+    background: #b10333;
+    color: #fff;
+}
+
+
+
+
+.duas-colunas #news{
+    margin-left: 1px;
+    margin-top: -120px
+}
+
+.duas-colunas #mundo{
+    width: 600px;
+}
+
+
+.duas-colunas #mundo .fundo-caixa{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.duas-colunas #mundo ul{
+    list-style: none;
+    width: 600px;
+}
+
+.duas-colunas #mundo li{
+    background-color: #fff;
+    padding: 4px;
+    float: left;
+    width: 96%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.308);
+}
+
+
+.uma-coluna #destaques{
+    width: 700px;
+    margin-left: 100px;
+
+}
+
+.uma-coluna #destaques .fundo-caixa{
+    width: 100%;
+}
+
+.uma-coluna #destaques .conteudo-caixa{
+    padding: 1px;
+    width: 690px;
+    margin: 5px;
+    background: #fff;
+}
+
+.uma-coluna #mundo{
+    width: 700px;
+    margin-left: 100px;
+    
+}
+
+
+.uma-coluna #mundo .fundo-caixa{
+    width: 100%;
+    margin-bottom: 20px;
+
+}
+
+.uma-coluna #mundo ul{
+    list-style: none;
+    width: 710px;
+}
+
+.uma-coluna #mundo li{
+    background-color: #fff;
+    padding: 4px;
+    float: left;
+    width: 96%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.308);
+}
+
+#clear{
+    clear: both;
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+    color: #fff;
+    background-color: #294c71
+}
